@@ -6,6 +6,9 @@
 #     val.append(int(input("enter"+index+" value of val")))
 
 
+#recursive solution
+
+
 def knapSack(W, wt, val, n):
     if n == 0 or W == 0:
         return 0
