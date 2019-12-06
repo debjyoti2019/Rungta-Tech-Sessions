@@ -16,7 +16,7 @@ def hamiltonian(vertex):
     global N
     
     if total==N:
-        if visited[start]==1:
+        if graph[vertex][start]==1:
             
             return True
         return False
